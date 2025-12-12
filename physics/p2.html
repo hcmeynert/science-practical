@@ -1,0 +1,100 @@
+<head>
+	<title>HCM's Science Practical</title>
+	<meta charset="utf-8">
+	<meta name="keywords" content="" />
+	<!-- Load MathJax from the CDN -->
+	<script id="MathJax-script"
+	async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+	</script>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body background="" BGCOLOR="WHITE">
+<center>
+	<h1>Physics P.2: Measuring the Diameter Ratio of Moon and Earth</h1>
+	<br><br>
+	<div style=" text-align: left">
+	<text><i>Prerequisites:</i> I photographed a lunar eclipse with a
+	digital camera.
+	<figure style="text-align: left" width="400em">
+		<center>
+			<img src='lunar-eclipse-250907.jpg' align="center" width="600em">
+			</img>
+		</center> 
+		<figcaption width="400em">The ratio of the diameters of Earth's
+		shadow and the Moon's disk is, according to literature, = 2.66,
+		as is the ratio of the diameters of the circumscribed red
+		circles. So, my observation is in agreement with literature
+		value. From the image it is clear that the deviation is not
+		greater than \(10 \%\)
+		</figcaption>
+	</figure>
+	<figure style="text-align: left max-width: 70%">
+		<center>
+			<img src='lunar-1.jpg' align="center" width="600em">
+			</img>
+		</center> 
+		<figcaption></figcaption>
+	</figure>
+	As you see in the figure, the angle \(\varphi '\) at \(O\) will be
+	measured as
+	
+	$$ \tan \left(\frac{\varphi '}{2}\right) = \frac{R_S-R_E}{d_S}
+	= \frac{R_S-R_E}{R_S}\cdot\tan \left(\frac{\varphi }{2}\right)
+	= \left(1-\frac{R_E}{R_S}\right)\cdot
+	\tan \left(\frac{\varphi }{2}\right) $$
+
+	where \(d_S\) be the distance of the Sun, and \(\varphi \)
+	be the angular diameter of Sun and Moon on the sky on Earth. 
+	The distance \(d_E\) of the Earth \(E\) to the observer \(O\)
+	will then be
+
+	$$ d_E = \frac{R_E}{\tan \left(\frac{\varphi '}{2}\right)} $$
+
+	The distance of the Moon, again, will be
+
+	$$ d_M = \frac{R_M}{\tan \left(\frac{\varphi }{2}\right)} $$
+
+	Now, the shadow of the Earth on the Moon during a lunar eclipse
+	has the radius
+
+	$$ R = (d_E-d_M)\cdot\tan \left(\frac{\varphi '}{2}\right) $$
+
+	which, collecting all formulae together, relates to the radius of
+	the moon as
+
+	$$ \varrho := \frac{R}{R_M} =
+	\frac{R_E-R_M\cdot\left(1-\frac{R_E}{R_S}\right)}{R_M} $$
+
+	or, equivalently
+
+	$$ \xi := \frac{R_M}{R_E} = \frac{1}{1-\frac{R_E}{R_S} + \varrho }
+	> \frac{1}{1+\varrho } $$
+
+	Now, since we know (from <a href="./p3.html">Experiment P.3</a>)
+	
+	$$ \frac{R_S}{R_M} > 20 $$
+	
+	we get immediately
+
+	$$ \frac{R_S}{R_E} > \frac{20}{1+\varrho } $$
+	
+	or
+	$$ \frac{R_E}{R_S} < \frac{1+\varrho }{20} $$
+	
+	Which means
+
+	$$ \frac{1}{0.95(1+\varrho )} > \xi > \frac{1}{1+\varrho } $$
+	
+	and this furnishes, collecting all errors with
+	 <a href="../theory/t1.html">Theorem T.1</a>
+	 
+	$$ \xi = 0.280 \pm 0.077 $$
+	
+	in whose error bounds the exact value is contained according
+	to Wikipedia.
+	</text>
+	</div><br><br>
+	<br><br><br><br>
+	<text>&copy; Hans-Christian Meynert 2025</text><br></br>
+</center>
+</body>

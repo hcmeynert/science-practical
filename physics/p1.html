@@ -1,0 +1,68 @@
+<head>
+	<title>HCM's Science Practical</title>
+	<meta name="keywords" content="" />
+	<!-- Load MathJax from the CDN -->
+	<script id="MathJax-script"
+	async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+	</script>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body background="" BGCOLOR="WHITE">
+<center>
+	<h1>Physics P.1: Measuring Solar Second</h1><br><br>
+	<div style=" text-align: left">
+	<text><i>Prerequisites:</i> I used in this a pendulum wall clock,
+	a marker for the shadow of the sun on a sunny balcony,
+	and a tape measure to measure the length of the pendulum
+	<br><br>
+	<b>1.</b> The pendulum clock does 48:00:00 h &plusmn; 00:10:00 h
+	in exactly two solar days (as verified with the marker for the
+	shadow of the sun on my sunny balcony). This calculates to
+	an error of 0.35 %. Therefore, we get a number of hours
+	
+	$$ h_c = 24.0 \pm 0.35 \% $$
+	
+	<br><br>
+	<b>2.</b> My pendulum clock does 500 &plusmn; 10 oscillations in
+	ten minutes according to my counting. Therefore, it certainly
+	exactly does
+	
+	$$ N_h = 3000 $$
+	
+	oscillations per hour. For, in the measured realm of
+	3000 &plusmn; 60 oscillations, the number 3000 is most prominent,
+	and the clockmaker will certainly have chosen it. It can
+	easily be achieved by gears. Furthermore, it can be divided
+	by 12 (5 minutes) and by 60 (one minute).
+	<br><br>
+	<b>3.</b> The length of the pendulum of my clock is
+
+	$$ l_p = (0.358 \pm 0.0037) \text{ m} $$
+
+	This follows, if I measure its three parts, add them 
+	and calculate the error using <a href="../theory/t1.html">
+	Theorem T.1</a>.
+	<br><br>
+	<b>4.</b> The length \(l_s\) of a pendulum with a period equal to
+	one solar second or \(\frac{1}{86400}\) of a solar day can now be
+	found as
+	
+	$$ l_s = (0.24861 \pm 0.00303) \text{ m} $$
+
+	This follows at once, if you manipulate the well-known formula for
+	the period \(T\) of a pendulum with length \(l\)
+
+	$$ T = 2\pi\sqrt{\frac{l}{g}} $$
+	
+	to get
+	
+	$$ l_s = l_p\cdot\left(\frac{N_h\cdot h_c}{86400}\right)^2 $$
+	
+	Using <a href="../theory/t1.html">Theorem T.1</a> and the values
+	for \(l_p\), \(N_h\) and \(h_c\) found before
+	gives the error. This is what was to be found.
+	</text>
+	</div><br><br>
+	<br><br><br><br>
+	<text>&copy; Hans-Christian Meynert 2025</text>
+</body>

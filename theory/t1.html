@@ -1,0 +1,53 @@
+<head>
+	<title>HCM's Science Practical</title>
+	<meta charset="utf-8">
+	<meta name="keywords" content="" />
+	<!-- Load MathJax from the CDN -->
+	<script id="MathJax-script"
+		async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+	</script>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body background="" BGCOLOR="WHITE">
+	<center>
+		<h1>Theory T.1: Gaussian Propagation of Uncertainty</h1>
+		<br><br>
+		<div style=" text-align: left">
+			<text> <b>T.1 Theorem:</b> (Gaussian propagation of uncertainty)
+			A measured value \(f\) depend on several measured values
+			\(x_i\), who are supposed to be Gaussian distributed with
+			standard deviations \(\Delta x_i\). Then, the measured value
+			\(f\) is Gaussian distributed as well, with a first
+			approximation \(\Delta f\) to the standard deviation of
+			
+			$$ \Delta f = \sqrt{\sum _i\left(\frac{\partial f}
+				{\partial x_i}\Delta x_i\right)^2} $$
+			
+			<i>Proof:</i> The measured value \(f\) can be rewritten:
+			
+			$$ f(r_i) = f(x_i) + \sum _i\frac{\partial f}{\partial x_i}
+			\cdot (r_i-x_i) $$
+
+			At least within the deviation of the \(r_i\) from the
+			\(x_i\) (which range is to be observed), the function \(f\)
+			is thought to be linear. Now, this is a sum of the Gaussian
+			distributed random variables
+
+			$$ R _i = \frac{\partial f}{\partial x_i}r_i$$
+
+			plus a constant offset, whose means and variances will be
+			
+			$$ \mu _i = \frac{\partial f}{\partial x_i}x_i $$
+			
+			$$ \sigma _i^2 = \left(\frac{\partial f}{\partial x_i}
+			\Delta x_i\right)^2 $$
+			
+			So, from the theory of Gaussian distributions, it follows at
+			once that the variance of the sum of the \(R _i\) is the
+			sum of the variances of the \(R _i\). Q. E. D.
+			</text>
+		</div>
+		<br><br><br><br>
+		<text>&copy; Hans-Christian Meynert 2025</text>
+	</center>	
+</body>

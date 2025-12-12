@@ -1,0 +1,102 @@
+<head>
+	<title>HCM's Science Practical</title>
+	<meta charset="utf-8">
+	<meta name="keywords" content="" />
+	<!-- Load MathJax from the CDN -->
+	<script id="MathJax-script"
+	async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+	</script>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body background="" BGCOLOR="WHITE">
+<center>
+	<h1>Biology B.1: Measuring the Size of a Cell Nucleus</h1>
+	<br><br>
+	<div style=" text-align: left">
+	<text><i>Prerequisites:</i> I used in this an old student's
+	microscope with limited quality, microscope slides of glass, onion
+	cells, and a ruler.
+	<figure>
+		<center><img src='onion-480-360.jpg' width="600em"></img>
+		</center> 
+		<figcaption>480 &mu;m &times; 360 &mu;m; uncertainty of the
+		lengths is 10%; 850 &times; 637 pixels is the resolution.
+		</figcaption>
+	</figure>
+	<center>
+		<table border="solid">
+		<tr>
+			<td>nucleus</td>
+			<td>diameter d in pixels</td>
+		</tr>
+		<tr>
+			<td>1</td>
+			<td>10</td>
+		</tr>
+		<tr>
+			<td>2</td>
+			<td>10</td>
+		</tr>
+		<tr>
+			<td>3</td>
+			<td>10</td>
+		</tr>
+		<tr>
+			<td>4</td>
+			<td>10</td>
+		</tr>
+		<tr>
+			<td>5</td>
+			<td>12</td>
+		</tr>
+		<tr>
+			<td colspan="2">mean \(d = 10.4\) pixels</td>
+		</tr>
+		<tr>
+			<td colspan="2">uncertainty \(\Delta d = 0.8\) pixels</td>
+		</tr>
+		</table>
+	</center>
+	<br><br>
+	The "diameter" \(d\) of the cellular nuclei hereby pertains
+	to the blueish and greenish parts to be seen in the picture,
+	which are surrounded by even larger parts that don't belong to the
+	nucleus itself.
+	<br>
+	If we multiply the ratio of the pixels of the nucleus
+	and the resolution of the long side of the picure,
+	multiplying by 480 \(\mu \)m, and collecting the
+	errors according to <a href="../theory/t1.html">Theorem T.1</a>,
+	we get
+	
+	$$ d = (5.87 \pm 0.74) \mu\text{m}$$
+	
+	This exactly coincides with the literature value to be found on
+	various places on the internet.
+	<br>
+	Now, we are in a position to do a fascinating estimation.
+	We estimate a priori the information content of an onion.
+	A simple 1 MB picture of an onion has \(10^7\) bit. This
+	is the absolute minimum. If you take a 1000 year long mp4 of
+	the growing of the plant, which is about \(10^7\) GB
+	or \(10^{17}\) bit, it will exceed the information content
+	of the onion. So, we have for the number \(G\) of genes
+	
+	$$ 10^7 < G < 10^{17} $$
+	
+	So you get for the diameter \(d_G\) of a genome of 1 bit
+	
+	$$ 10^8 > d_G > 10^{-11} $$
+	
+	(if you calculate in cubes of \(d\) and \(d_G\)).
+	If you now set forth, that a genome consist of, rougly estimated,
+	10 atoms in diameter, you get the diameter \(d_a\) of an atom as
+	
+	$$ 10^{-9} > d_a > 10^{-12} $$
+	
+	</text>
+	</div><br><br>
+	<br><br><br><br>
+	<text>&copy; Hans-Christian Meynert 2025</text>
+</center>
+</body>

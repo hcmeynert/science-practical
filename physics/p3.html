@@ -1,0 +1,161 @@
+<head>
+	<title>HCM's Science Practical</title>
+	<meta charset="utf-8">
+	<meta name="keywords" content="" />
+	<!-- Load MathJax from the CDN -->
+	<script id="MathJax-script"
+	async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+	</script>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body background="" BGCOLOR="WHITE">
+<center>
+	<h1>Physics P.3: Measuring the angular Distance between the Sun
+	and a halved Moon</h1>
+	<br><br>
+	<div style=" text-align: left">
+	<text><i>Prerequisites:</i> At night, I put a bottle into the light
+	coming from a halved Moon and measured the length of its shadow.
+	I also record the exact time and date, the distance of the Moon from
+	the southern direction and the latitude of my location.
+	<figure style="text-align: left" width="400em">
+		<center>
+			<img src='sph-tr-1.jpg' align="center" width="300em">
+			</img>
+		</center> 
+		<figcaption width="400em">
+		N be the sky's north pole, S be the position of the Sun,
+		M be the position of a halved Moon and Z ist the
+		zenith point.
+		</figcaption>
+	</figure>
+	<center>
+		<table border="solid">
+		<tr>
+			<td>definition</td>
+			<td>symbol</td>
+			<td>measured value</td>
+		</tr>
+		<tr>
+			<td>complement to angle of Moon to south</td>
+			<td>\(\xi \)</td>
+			<td>\(99^o\)</td>
+		</tr>
+		<tr>
+			<td>angle of the halved Moon above horizon at that time</td>
+			<td>\(n\)</td>
+			<td>\(45^o\)</td>
+		</tr>
+		<tr>
+			<td>complement of latitude</td>
+			<td>\(s\)</td>
+			<td>\(38.1^o\)</td>
+		</tr>
+		<tr>
+			<td>time resp. angle between sun and zenith at that time</td>
+			<td>\(\delta + \nu\)</td>
+			<td>9:29 h \(= 142^o\)</td>
+		</tr>
+		<tr>
+			<td>distance to springtime equinox<br> (on March 6)</td>
+			<td>\(\vartheta\)</td>
+			<td>\(-15^o\)</td>
+		</tr>
+		<tr>
+			<td colspan="3">uncertainty = \(\pm 1^o\)</td>
+		</tr>
+		</table>
+	</center>
+	<br><br>
+	The law of cosines in spherical trigonometry reads,
+	according to the above diagram
+	
+	$$ \cos x = \cos (s)\cdot \cos (n) + \sin (s)\cdot \sin (n)\cdot\cos (\xi ) $$
+	
+	gives \(x\). The law of sines, in the very same spherical
+	geometry, now reads
+	
+	$$ \frac{\sin x}{\sin \xi } = \frac{\sin n}{\sin \nu }$$
+	
+	to furnish \(\nu\). Now, we can calculate from the table,
+	
+	$$ (\delta +\nu )- \nu  = \delta $$
+	
+	We plainly calculate the approximate height \(\varrho _S\) of the
+	Sun above the celestial equator by
+	
+	$$ \sin \varrho _S = \sin (\vartheta )\cdot\sin (\varepsilon ) $$
+	
+	where \(\varepsilon = 23,5^o\) is the ecliptic angle. 
+	
+	We get
+	
+	$$ z = \frac{\pi }{2}- \varrho _S $$
+	
+	We now are in a position to derive the angle finally sought for,
+	that is, \(d\), by applying the law of cosines in spherical
+	tringonometry again, namely
+	
+	$$ \cos d = \cos (z)\cdot \cos (x) + \sin (z)\cdot \sin (x)\cdot\cos (\delta ) $$
+	
+	The following table collects all values obtained in course of calculation:
+	<br><br>
+	<center>
+		<table border="solid">
+		<tr>
+			<td>definition</td>
+			<td>symbol</td>
+			<td>calculated value</td>
+		</tr>
+		<tr>
+			<td>distance of the Moon from the north pole at that time</td>
+			<td>\(x\)</td>
+			<td>\(60.77810^o\)</td>
+		</tr>
+		<tr>
+			<td>angle of Moon-North-Zenith at north pole</td>
+			<td>\(\nu \)</td>
+			<td>\(53.15338^o\)</td>
+		</tr>
+		<tr>
+			<td>angle of Sun-North-Moon at north pole</td>
+			<td>\(\delta \)</td>
+			<td>\(88.84661^o\)</td>
+		</tr>
+		<tr>
+			<td>angle between Sun and north pole</td>
+			<td>\(z\)</td>
+			<td>\(95.92369^o\)</td>
+		</tr>
+		<tr>
+			<td>distance of the Sun and a halved Moon</td>
+			<td>\(d \)</td>
+			<td>\(91.88593^o\)</td>
+		</tr>
+		<tr>
+			<td colspan="3">uncertainty = \(\pm 5^o\)</td>
+		</tr>
+		</table>
+	</center>
+	<br><br>
+	So, from the uncertainty of \(\pm 5^o\) (which is estimated
+	because the halved Moon is not exactly halved, as well as
+	because the distance of the Sun from equinox is approximated,
+	and because the other errors add up), we can
+	say with these values
+	
+	$$ d > 87^o $$
+	
+	and, therefore,
+	
+	$$ \frac{d_S}{d_M} = \frac{1}{\cos d} > 20 $$
+	
+	(\(d_S, d_M\) distances of Sun and Moon from Earth) So, our result reads:
+	<br><br>
+	<i>The Sun is more than 20 times more distant from Earth than the Moon is.</i>
+	</text>
+	</div><br><br>
+	<br><br><br><br>
+	<text>&copy; Hans-Christian Meynert 2025</text><br></br>
+</center>
+</body>
